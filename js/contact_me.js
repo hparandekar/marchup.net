@@ -18,13 +18,17 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://formspree.io/f/xpzgyyyr", // Formspree URL
                 type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
+                },
+                dataType: "json", // Ensure that you are expecting a JSON response
+                headers: {
+                    "Accept": "application/json" // Required for Formspree
                 },
                 cache: false,
                 success: function() {
@@ -62,7 +66,6 @@ $(function() {
         $(this).tab("show");
     });
 });
-
 
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
