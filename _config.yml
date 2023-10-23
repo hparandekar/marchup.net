@@ -16,14 +16,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/hparandekar/
 
-- name: Preeti Kelkar
-  pic: 2
-  position: Advisor
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/preeti-kelkar/
-    - title: facebook
-      url: #
+#- name: Preeti Kelkar
+#  pic: 2
+#  position: Advisor
+#  social:
+#    - title: linkedin
+#      url: https://www.linkedin.com/in/preeti-kelkar/
+#    - title: facebook
+#      url: https://www.facebook.com/preeti.kelkar
 
 - name: Anushka Parandekar
   pic: 3
