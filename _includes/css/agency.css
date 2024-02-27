@@ -735,6 +735,14 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    position: fixed; /* Add this line */
+    left: 0;         /* Add this line */
+    bottom: 0;       /* Add this line */
+    width: 100%;     /* Add this line */
+    z-index: 1030;   /* Ensure it sits above other content; adjust this value as necessary */
+    background-color: #fff; /* or any background color you prefer, adjust as needed */
+    /* Optional: Add box shadow for elevation effect */
+    box-shadow: 0 -2px 5px rgba(0,0,0,.3); /* Adjust or remove as per your design */
 }
 
 footer span.copyright {
@@ -874,5 +882,6 @@ img::-moz-selection {
 }
 
 body {
+    padding-bottom: 100px; /* Adjust this value based on the height of your footer */
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
