@@ -134,6 +134,7 @@ fieldset[disabled] .btn-primary.active {
 .custom-alert-bar {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary-dark }}; /* Set the text color */
     padding: 10px; /* Adjust padding as needed */
     /* Add any additional styles you want */
