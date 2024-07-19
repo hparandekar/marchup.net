@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -186,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Bicubik","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Lobster", "Bicubik","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -296,41 +298,55 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    font-size: 24px; /* Adjusted font size */
     font-style: italic;
-    line-height: 22px;
+    line-height: 28px; /* Adjusted line height */
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 48px; /* Adjusted font size */
     font-weight: 700;
-    line-height: 50px;
+    line-height: 54px; /* Adjusted line height */
+}
+
+header .intro-text .intro-subheading {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px; /* New font size for intro-subheading */
+    line-height: 26px; /* Line height for intro-subheading */
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 40px; /* Adjusted font size */
         font-style: italic;
-        line-height: 40px;
+        line-height: 44px; /* Adjusted line height */
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 54px; /* Adjusted font size */
         font-weight: 700;
-        line-height: 75px;
+        line-height: 60px; /* Adjusted line height */
+    }
+
+    header .intro-text .intro-subheading {
+        margin-bottom: 25px;
+        font-family: {{ site.data.template.font.secondary }};
+        font-size: 32px; /* New font size for larger screens */
+        line-height: 36px; /* Line height for larger screens */
     }
 }
 
