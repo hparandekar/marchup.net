@@ -337,9 +337,9 @@ header .intro-text .intro-subheading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 54px; /* Adjusted font size */
+        font-size: 50px; /* Adjusted font size */
         font-weight: 700;
-        line-height: 60px; /* Adjusted line height */
+        line-height: 54px; /* Adjusted line height */
     }
 
     header .intro-text .intro-subheading {
