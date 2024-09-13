@@ -1,11 +1,11 @@
 ---
-title: Dashboard
-subtitle: Marchup Default Page
+title: My Feed
+subtitle: Friends & space updates
 layout: default
-modal-id: 1
+modal-id: 2
 date: 2024-03-14
-img: dashboard.png
-thumbnail: dashboard.png
+img: feed.png
+thumbnail: feed.png
 alt: image-alt
 description: This is the landing page for Marchup. It includes your feed, recommendations, getting started guides and more
 
