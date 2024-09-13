@@ -902,3 +902,9 @@ body {
     padding-bottom: 100px; /* Adjust this value based on the height of your footer */
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.feature-icon {
+    width: 100px;  /* Set the width */
+    height: auto;  /* Maintain the aspect ratio */
+    margin-bottom: 20px;  /* Add spacing below the image */
+}
