@@ -2,7 +2,7 @@
 title: Profile
 subtitle: Your Marchup profile
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2024-03-14
 img: profile.png
 thumbnail: profile.png
