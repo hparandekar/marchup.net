@@ -1,0 +1,12 @@
+---
+title: AI mentor
+subtitle: AI-powered mentor
+layout: default
+modal-id: 8
+date: 2024-03-25
+img: marc.png
+thumbnail: marc.png
+alt: image-ai-mentor
+description: Meet Marc, Marchup's AI powered mentor that guides you on your school, college, career pathway questions
+
+---

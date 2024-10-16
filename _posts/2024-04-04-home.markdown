@@ -1,0 +1,12 @@
+---
+title: Home
+subtitle: Marchup Homescreen
+layout: default
+modal-id: 0
+date: 2024-04-14
+img: home.png
+thumbnail: home.png
+alt: image-home
+description: Marchup homescreen with shortcuts to popular tasks and features
+
+---
