@@ -10,14 +10,14 @@ description: "A for students, by students social network that helps high schoole
 # Team names, titles and social links
 people:
 - name: Harsh Parandekar
-  pic: 1
+  pic: harsh
   position: Founder and CEO
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/hparandekar/
 
 #- name: Preeti Kelkar
-#  pic: 2
+#  pic: preeti
 #  position: Advisor
 #  social:
 #    - title: linkedin
@@ -26,11 +26,18 @@ people:
 #      url: https://www.facebook.com/preeti.kelkar
 
 - name: Anushka Parandekar
-  pic: 3
+  pic: anushka
   position: Product and Marketing Lead
   social:
     - title: instagram
       url: https://www.instagram.com/aurora.by.anushka/?hl=en
+
+- name: John Cullen
+  pic: john
+  position: Strategic Advisor
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/johnwesleycullen/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
