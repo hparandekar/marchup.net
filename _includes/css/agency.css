@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Bicubik","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.brand }};
+    color: #{{ site.data.template.color.secondary-muted }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -964,6 +964,13 @@ body {
     background-color: #fff;
     padding: 15px;
     margin-bottom: 20px;
+    min-height: 200px; /* Set to desired minimum height */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .card-title a {
@@ -981,31 +988,11 @@ body {
     color: #555; /* Muted color from template: #777 */
 }
 
-.card-text a {
-    color: #{{ site.data.template.color.brand }}; /* Brand color from template */
-}
-
-.card-text a:hover {
-    color: #{{ site.data.template.color.primary }}; /* Change to primary on hover */
-}
-
 /* Optional: Ensure Cards Are Responsive */
 @media (max-width: 767px) {
     .card {
         margin-bottom: 20px;
     }
-}
-
-/* List Item Hover Effect */
-.research-list li:hover {
-    background-color: #f9f9f9;
-    border-left: 4px solid #{{ site.data.template.color.primary }};
-    padding-left: 26px; /* Adjust to account for the border */
-}
-
-/* Enhance Link Hover Color */
-.research-list li a:hover {
-    color: #{{ site.data.template.color.brand }};
 }
 
 /* Additional Text Styling */
