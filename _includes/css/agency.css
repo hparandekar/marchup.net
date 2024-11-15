@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Lobster", "Bicubik","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Bicubik","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.brand }};
 }
 
@@ -307,7 +307,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 48px; /* Adjusted font size */
+    font-size: 30px; /* Adjusted font size */
     font-weight: 700;
     line-height: 54px; /* Adjusted line height */
 }
@@ -337,13 +337,13 @@ header .intro-text .intro-subheading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 50px; /* Adjusted font size */
+        font-size: 36px; /* Adjusted font size */
         font-weight: 700;
         line-height: 54px; /* Adjusted line height */
     }
 
     header .intro-text .intro-subheading {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 32px; /* New font size for larger screens */
         line-height: 36px; /* Line height for larger screens */
@@ -907,4 +907,113 @@ body {
     width: 100px;  /* Set the width */
     height: auto;  /* Maintain the aspect ratio */
     margin-bottom: 20px;  /* Add spacing below the image */
+}
+
+/* Research Section Styling */
+#research.section {
+    padding: 60px 0;
+}
+
+#research.bg-light {
+    background-color: #f4f4f4; /* Consider using a template color if desired */
+    border-top: 1px solid #e0e0e0; /* Consider using a template color if desired */
+    border-bottom: 1px solid #e0e0e0; /* Consider using a template color if desired */
+}
+
+.research-list {
+    list-style: none;
+    padding: 0;
+}
+
+.research-list li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.research-list li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2em;
+    margin-top: 3px;
+    color: #{{ site.data.template.color.primary }};
+}
+
+.research-list li a {
+    color: #{{ site.data.template.color.primary }}; /* Primary color from template */
+    text-decoration: none;
+}
+
+.research-list li a:hover {
+    text-decoration: underline;
+}
+
+.research-additional-text p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Card Styling for Bootstrap 3 */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-title a {
+    font-size: 1.25em;
+    color: #{{ site.data.template.color.primary }}; /* Primary color from template */
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+.card-text {
+    font-size: 1.1em;
+    color: #555; /* Muted color from template: #777 */
+}
+
+.card-text a {
+    color: #{{ site.data.template.color.brand }}; /* Brand color from template */
+}
+
+.card-text a:hover {
+    color: #{{ site.data.template.color.primary }}; /* Change to primary on hover */
+}
+
+/* Optional: Ensure Cards Are Responsive */
+@media (max-width: 767px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* List Item Hover Effect */
+.research-list li:hover {
+    background-color: #f9f9f9;
+    border-left: 4px solid #{{ site.data.template.color.primary }};
+    padding-left: 26px; /* Adjust to account for the border */
+}
+
+/* Enhance Link Hover Color */
+.research-list li a:hover {
+    color: #{{ site.data.template.color.brand }};
+}
+
+/* Additional Text Styling */
+.research-additional-text .lead {
+    color: #{{ site.data.template.color.secondary-dark }};
+    font-family: {{ site.data.template.font.primary }};
+}
+
+.research-additional-text p {
+    color: #{{ site.data.template.color.secondary-dark }};
 }
