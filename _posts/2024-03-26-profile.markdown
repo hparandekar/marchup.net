@@ -1,9 +1,9 @@
 ---
 title: Profile
-subtitle: Your Marchup profile
+subtitle: Your portfolio
 layout: default
 modal-id: 1
-date: 2024-03-14
+date: 2024-03-26
 img: profile.png
 thumbnail: profile.png
 alt: image-alt

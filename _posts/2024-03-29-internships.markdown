@@ -3,7 +3,7 @@ title: Internships
 subtitle: Internship search sample
 layout: default
 modal-id: 7
-date: 2024-03-14
+date: 2024-03-29
 img: internships.png
 thumbnail: internships.png
 alt: image-alt

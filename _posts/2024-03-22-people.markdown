@@ -3,7 +3,7 @@ title: People
 subtitle: Marchup People Directory
 layout: default
 modal-id: 3
-date: 2024-03-14
+date: 2024-03-22
 img: people.png
 thumbnail: people.png
 alt: image-alt
